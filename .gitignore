@@ -1,0 +1,6 @@
+private/.env
+/node_modules
+/private/node_modules/qs
+/private/node_modules
+private/package-lock.json
+private/package.json

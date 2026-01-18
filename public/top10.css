@@ -1,0 +1,91 @@
+/* HTML props */
+body {
+
+    background-color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+input {
+
+    height: 25px;
+    width: 180px;
+
+    border-radius: 5px;
+    text-align: center;
+
+    background-color: rgb(228, 228, 228);
+    border-color: gray;
+
+}
+
+::placeholder {
+
+    color: rgb(117, 117, 117);
+
+}
+
+/* classes & id */
+
+#content {
+
+    position: fixed;
+    transform: translate(-50%, -50%);
+
+
+    top: 50%;
+    left: 50%;
+    gap: 5px;
+
+}
+
+#content button {
+       height: 30px;
+    width: 120px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    border-color: gray;
+
+    color: rgb(49, 49, 49);
+
+}
+
+#content button:hover {
+
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+}
+
+/* User Info */
+
+#userInfo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    display: flex;
+    gap: 10px;
+}
+
+#userImage {
+
+    width: 60px;
+    height: 60px;
+
+    margin-top: 6px;
+
+    border-radius: 50%;
+    border: 2.5px solid white;
+    border-color: white;
+
+    display: none;
+
+}
+
+#userName {
+
+    display: none;
+
+}
